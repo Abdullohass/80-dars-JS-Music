@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: rgb(99, 161, 6);
+}
+
+.ota-div {
+    width: 350px;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 100px auto;
+    background-color: rgb(250, 250, 250);
+}
+
+.ota-div img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+h2 {
+    margin: 5px 0;
+}
+
+p {
+    margin: 7px 0;
+    font-size: 20px;
+    color: rgb(105, 105, 105);
+}
+
+select {
+    width: 100%;
+    height: 45px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+progress {
+    margin: 20px 0;
+    width: 100%;
+    height: 20px;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+button {
+    width: 70px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: rgb(99, 161, 6);
+    color: white;
+    font-size: 20px;
+    border: none;
+    transition: 0.5s;
+}
+
+button:hover {
+    transform: scale(1.07);
+}
+
+#stop{
+    display: none;
+}

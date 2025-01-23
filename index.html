@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>80 dars JS Music</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="ota-div">
+            <img src="./img/bahor.jpg" alt="bahor" id="rasm" style="height: 220px;">
+            <h2 id="nomi">Atirgullar Ochdi Chiroy</h2>
+            <p id="singer">Jasur Jabborov</p>
+            <select name="music-select" id="select">
+                <option value="Atirgullar Ochdi Chiroy">Atirgullar Ochdi Chiroy</option>
+                <option value="Glory Glory Man United">Glory Glory Man United</option>
+                <option value="Gel Bana">Gel Bana</option>
+                <option value="Men o'zimni sevaman">Men o'zimni sevaman</option>
+                <option value="Sen Meniki Emassan">Sen Meniki Emassan</option>
+            </select>
+            <progress max="100" value="30" id="progress"></progress>
+            <div class="actions">
+                <button id="prev"><i class="fa-solid fa-backward-fast"></i></button>
+                <button id="play"><i class="fa-solid fa-play"></i></button>
+                <button id="stop"><i class="fa-solid fa-pause"></i></i></button>
+                <button id="next"><i class="fa-solid fa-forward-fast"></i></button>
+            </div>
+        </div>
+
+        <audio src="" id="audio"></audio>
+        <!-- <input type="range" disabled value="10"> -->
+
+
+
+        <script src="./script.js"></script>
+
+</body>
+
+</html>
